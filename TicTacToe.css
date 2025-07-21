@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -14,7 +13,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .game {
@@ -34,12 +32,11 @@ body {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
     color: black;
-
 }
 
 #reset-btn {
     padding: 1rem;
-    font-size: 1, 25rem;
+    font-size: 1.25rem; /* FIXED: was 1, 25rem (invalid) */
     background-color: black;
     color: aliceblue;
     border-radius: 1rem;
@@ -48,7 +45,7 @@ body {
 
 #new-btn {
     padding: 1rem;
-    font-size: 1, 25rem;
+    font-size: 1.25rem; /* FIXED: was 1, 25rem (invalid) */
     background-color: black;
     color: aliceblue;
     border-radius: 1rem;
@@ -58,14 +55,10 @@ body {
 #msg {
     color: white;
     font-size: 8vmin;
-
 }
 
 .msg-container {
-
     height: 20vmin;
-
-
 }
 
 .popup-overlay {
@@ -90,4 +83,14 @@ body {
 
 .hide {
     display: none;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
